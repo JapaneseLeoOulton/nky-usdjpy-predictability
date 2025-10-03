@@ -1,0 +1,65 @@
+{
+  "sample": {
+    "start": "2023-01-05",
+    "end": "2025-12-09",
+    "n_obs_model": 248,
+    "n_obs_oos": 50
+  },
+  "in_sample": {
+    "beta_fx": -0.23468789415110852,
+    "t_fx_hac": -1.9417777070975686,
+    "p_fx_hac": 0.05216401676561379,
+    "r2_controls": 0.17878901387288693,
+    "r2_full": 0.19029823571455984,
+    "delta_r2": 0.011509221841672912,
+    "partial_r2_fx_cond_controls": 0.014014938957345457,
+    "hac_maxlags": 4,
+    "signal_flag": false
+  },
+  "oos": {
+    "r2_vs_controls": 0.04441067982624669,
+    "r2_vs_ar1": 0.06629437513962855,
+    "cw_full_vs_controls_stat": 2.6941328615290128,
+    "cw_full_vs_controls_p": 0.007057202718326661,
+    "cw_full_vs_ar1_stat": 3.28407865654018,
+    "cw_full_vs_ar1_p": 0.0010231636222808316,
+    "acc_full": 0.54,
+    "acc_controls": 0.56,
+    "acc_ar1": 0.34,
+    "signal_flag": true
+  },
+  "economic": {
+    "cost_bps_per_switch": 5,
+    "annual_turnover": 100.80000000000001,
+    "strategy_ann_return": 6.541729671755678,
+    "strategy_ann_vol": 0.9059556640297733,
+    "strategy_sharpe": 7.220805533305535,
+    "strategy_cagr": 433.14864712490606,
+    "buyhold_ann_return": 0.8925216479188846,
+    "buyhold_ann_vol": 1.5152022772138865,
+    "buyhold_sharpe": 0.5890445528896838,
+    "buyhold_cagr": -0.2632673708059312,
+    "signal_flag": false
+  },
+  "stability": {
+    "r2_pre2020_vs_controls": NaN,
+    "r2_post2020_vs_controls": 0.04441067982624669,
+    "r2_pre2024Aug_vs_controls": NaN,
+    "r2_post2024Aug_vs_controls": 0.04441067982624669,
+    "signal_flag": true
+  },
+  "var_granger": {
+    "lags_used": 6,
+    "f_stat": 2.419735343742001,
+    "p_value": 0.025167303544249654
+  },
+  "index": {
+    "PIDX": 35.22919374555174,
+    "Proceed_to_ML": true
+  },
+  "artifacts": {
+    "predictions_csv": "C:\\Users\\leoou\\OneDrive\\Desktop\\mini-project\\timeseries-jp-drawdown\\data\\processed\\predict_results.csv",
+    "summary_json": "C:\\Users\\leoou\\OneDrive\\Desktop\\mini-project\\timeseries-jp-drawdown\\data\\processed\\predict_summary.json"
+  },
+  "timestamp": "2025-10-02T18:58:40.331886Z"
+}

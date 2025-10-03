@@ -1,0 +1,12 @@
+Model: ElasticNet
+MSE: 1.397114e-04
+MAE: 8.854647e-03
+RMSE: 1.181996e-02
+R2: -0.0015
+IC (Spearman): nan
+MZ alpha: 3.7185e-04 (p=0.716)
+MZ beta: 0.000 (p=0.716)
+DM vs RW: 0.035 (p=0.972)
+DM vs AR1: 0.892 (p=0.372)
+DM vs Controls: 1.063 (p=0.288)
+Test window: 2025-01-06 → 2025-08-29, N=154
